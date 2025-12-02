@@ -6,3 +6,5 @@
 5- tailwindcss
 6- mongoose
 7- dotenv
+8- bcryptjs
+9- cors
