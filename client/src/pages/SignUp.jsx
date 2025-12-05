@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
+import OAuth from "../components/OAuth";
 
 const SignUp = () => {
   const [formdata, setFormData] = useState({
@@ -381,6 +382,7 @@ const SignUp = () => {
                   "Sign Up"
                 )}
               </button>
+              <OAuth />
             </form>
 
             <div className="my-8">
